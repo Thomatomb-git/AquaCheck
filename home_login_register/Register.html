@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Registrasi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="signup-form" class="signup-form">
+      <p id="success-msg" style="display: none; color: green;">Registrasi berhasil!</p>
+      <p>Registrasi</p>
+      <div class="input-container">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Username">
+      </div>
+      <div class="input-container">
+        <label for="address">Alamat</label>
+        <input type="text" id="address" placeholder="Alamat">
+      </div>
+      <div class="input-container">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email">
+      </div>
+      <div class="input-container">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password">
+      </div>  
+      <div class="input-container">
+        <label for="confirm password">Konfirmasi Password</label>
+        <input type="password" id="confirm_password" placeholder="Password">
+      </div>
+      <div class="button">
+        <button type="submit">Registasi</button>
+      </div>
+    </form>
+  </div>
+  <script src="Registerjs.js"></script>
+</body>
+</html>
